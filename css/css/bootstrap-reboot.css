@@ -272,8 +272,14 @@ template {
   display: none !important; }
 
 #logo{
-  max-width: 100%;
-  height: auto;
+   height: auto;
+   position: relative;
+   object-fit: fill;
+   width: auto;
+   height: auto;
+   max-height: 10rem;
+   max-width: 100%;
+
 }
 #img_logo{
   height: 50px;

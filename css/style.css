@@ -448,6 +448,8 @@ pre {
 
 .container {
   width: 100%;
+  margin-top: -3rem;
+  padding-top: 0.2%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -3427,6 +3429,7 @@ input[type="button"].btn-block {
 
 .navbar {
   position: relative;
+  max-height: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3438,7 +3441,8 @@ input[type="button"].btn-block {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem; }
+  padding: 0.5rem 1rem;
+  margin-top: 0.8%; }
   .navbar > .container,
   .navbar > .container-fluid {
     display: -webkit-box;
@@ -3451,11 +3455,12 @@ input[type="button"].btn-block {
     align-items: center;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between; }
+    justify-content: space-between; 
+    /*background-color: white*/}
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
+  padding-top: 0px;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
@@ -3736,7 +3741,7 @@ input[type="button"].btn-block {
       color: rgba(0, 0, 0, 0.9); }
 
 .navbar-dark .navbar-brand {
-  color: #fff; }
+  color:white; }
   .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
     color: #fff; }
 
@@ -9503,7 +9508,7 @@ textarea.form-control {
     -ms-border-radius: 4px;
     border-radius: 4px; }
     .block-17 form .fields .form-control::-webkit-input-placeholder {
-      /* Chrome/Opera/Safari */
+      /* Chrome/Opera/Safari 
       color: #4d4d4d; }
     .block-17 form .fields .form-control::-moz-placeholder {
       /* Firefox 19+ */
